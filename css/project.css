@@ -1,0 +1,82 @@
+@font-face{
+  font-family: "DIN Alternate Medium";
+  src: url("../webFonts/DIN Alternate Medium/DIN Alternate Medium.otf");
+  font-size: medium;
+}
+
+@font-face{
+  font-family: "DIN Alternate Bold";
+  src: url("../webFonts/DIN Alternate Bold/DIN Alternate Bold.otf");
+  font-weight: bold;
+}
+
+.outer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.inner{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.doubleImage{
+  flex: 1;
+  overflow: hidden;
+  height: 400px;
+  margin: 3px;
+}
+
+.innerObject{
+  flex: 1;
+  width: 50%;
+  margin-right: 30px;
+}
+
+.text{
+  font-family: "DIN Alternate Medium";
+  flex: 1;
+  object-fit: fill;
+  white-space: normal;
+}
+.title{
+  font-family: "DIN Alternate Bold";
+  font-size: 15px;
+}
+
+.image{
+  flex: 1;
+  overflow: hidden;
+  height: 500px;
+  margin: 3px;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+iframe{
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 411px){
+  .inner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .innerObject{
+    flex:1;
+    width: 100%;
+  }
+  .text{
+    padding-bottom: 15px;
+  }
+
+}

@@ -51,7 +51,7 @@ img{
 
 /*this will take in affect on smaller screens
 kinda went the other direction with min-width on nav bar*/
-@media screen and (max-width: 411px){
+@media screen and (max-width: 480px){
   .doubleImageContainer{
     display: flex;
     flex-direction: column;

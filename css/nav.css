@@ -79,7 +79,7 @@
   font-size: 35px;
 }
 
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 480px) {
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -103,7 +103,7 @@
     }
     .logo {
         margin-top: 0;
-        
+
     }
    .navbar-toggle {
        display: none;

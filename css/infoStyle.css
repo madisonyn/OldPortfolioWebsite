@@ -53,7 +53,7 @@ img{
   object-fit: cover;
 }
 
-@media screen and (max-width: 411px){
+@media screen and (max-width: 480px){
   .inner{
     display: flex;
     flex-direction: column;
